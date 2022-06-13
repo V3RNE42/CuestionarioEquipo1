@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./webpage/js/home.js"></script>
+    <link rel="stylesheet" href="./webpage/styles/quiz.css">
+    <title>Quiz Verano</title>
+</head>
+
+<body>
+    <div id="mainBody" class="wrapper center">
+        <header>
+            <li class="wrap-around">
+                <a id="home" class="width8em solid active disabled" href="./home.html">Principal</a>
+                <a id="question" class="width8em solid disabled" href="./webpage/question.html">Quiz</a>
+            </li>
+            <div id="welcome" class="center column">
+                <h2>¡Bienvenido al Quiz del Veranito!</h2>
+                <p>En este quiz, te enfrentarás a diversas preguntas <br>
+                    ¡A ver quién saca más puntos!</p>
+            </div>
+        </header>
+        <div class="center">
+            <form class="column">
+                <p>¿Sobre qué temática quieres hacer el quiz?</p>
+                <label for="category">Escoge:</label>
+                <select name="category" id="option" class="column width16em">
+                    <optgroup>Escoge!</optgroup>
+                    <option value=any></option>
+                    <option value=9 >Cultura general</option>
+                    <option value=10>Cultura: Libros</option>
+                    <option value=11>Cultura: Películas</option>
+                    <option value=12>Cultura: Música</option>
+                    <option value=13>Cultura: Musicales y Teatro</option>
+                    <option value=14>Cultura: Televisión</option>
+                    <option value=15>Cultura: Videojuegos</option>
+                    <option value=16>Cultura: Juegos de Mesa</option>
+                    <option value=17>Ciencia y Naturaleza</option>
+                    <option value=18>Ciencia: Ordenadores</option>
+                    <option value=19>Ciencia: Matemáticas</option>
+                    <option value=20>Mitología</option>
+                    <option value=21>Deportes</option>
+                    <option value=22>Geografía</option>
+                    <option value=23>Historia</option>
+                    <option value=24>Política</option>
+                    <option value=25>Arte</option>
+                    <option value=26>Famosos</option>
+                    <option value=27>Animales</option>
+                    <option value=28>Vehículos</option>
+                    <option value=29>Cultura: Cómics</option>
+                    <option value=30>Ciencia: Gadgets</option>
+                    <option value=31>Cultura: Anime y Manga</option>
+                    <option value=32>Cultura: Dibujos y Animación</option>
+                </select>
+                <button id="submit" class="width8em">ENVIAR</button>
+            </form>
+        </div>
+        <div id="results" class="column">
+            <p>GRÁFICAS</p>
+            BASADAS EN LOS DATOS GUARDADOS EN LOCALSTORAGE <br>
+            AQUÍ IRÍAN LAS GRÁFICAS DE RESULTADOS ANTERIORES
+        </div>
+    </div>
+</body>
+
+</html>

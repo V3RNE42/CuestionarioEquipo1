@@ -1,0 +1,96 @@
+* {
+    border-radius: 0.5em;
+    border-width: 0.2em;
+    margin: 0.25em;
+    padding: 0.15em;
+}
+
+.wrapper {
+    display: flex;
+    background-color: lightcyan;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.solid {
+    border-style: solid;
+    border-color: black;
+    box-shadow: none;
+}
+
+.wrap-around {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li {
+    background-color: lightgoldenrodyellow;
+}
+
+.center {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.width8em {
+    max-width: 8em;
+    aspect-ratio: 4;
+}
+
+.width16em {
+    max-width: 16em;
+    aspect-ratio: 8;
+}
+
+input,
+select,
+option {
+    background-color: white;
+}
+
+button,
+a {
+    background-color: lightgray;
+    font-weight: bolder;
+    box-shadow: 0.2em 0.1em darkgray;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.active {
+    background-color: red;
+}
+
+#hidden,
+#q2,
+#q3,
+#q4,
+#q5,
+#q6,
+#q7,
+#q8,
+#q9,
+#q10 {
+    display: none;
+}
+
+#green {
+    background-color: lightgreen;
+}
+
+#turn60 {
+    transform: rotate(300deg);
+    background-color: rgba(0, 0, 0, 0);
+}
